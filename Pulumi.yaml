@@ -1,0 +1,7 @@
+name: vllm-runpod
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: Creates vLLM serverless endpoints on RunPod
